@@ -1,6 +1,6 @@
 <script setup>
-import CardButton from './components/CardButton.vue'
-import PokerTable from './components/PokerTable.vue'
+import PokerTable from './components/PokerTable.vue';
+import PokerCard from './components/PokerCard.vue';
 </script>
 
 <template>
@@ -10,13 +10,13 @@ import PokerTable from './components/PokerTable.vue'
       grid grid-rows-1
       grid-flow-col
     ">
-      <CardButton points=1 />
-      <CardButton points=2 />
-      <CardButton points=3 />
-      <CardButton points=5 />
-      <CardButton points=8 />
-      <CardButton points=13 />
-      <CardButton points=21 />
+      <PokerCard points=1 />
+      <PokerCard points=2 />
+      <PokerCard points=3 />
+      <PokerCard points=5 />
+      <PokerCard points=8 />
+      <PokerCard points=13 />
+      <PokerCard points=21 />
     </div>
 
     <PokerTable />

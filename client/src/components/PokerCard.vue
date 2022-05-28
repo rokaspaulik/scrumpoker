@@ -27,7 +27,7 @@
 <script>
   export default {
     props: {
-      points: Number
+      points: String
     }
   }
 </script>
