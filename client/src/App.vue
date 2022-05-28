@@ -1,6 +1,7 @@
 <script setup>
 import PokerTable from './components/PokerTable.vue';
 import PokerCard from './components/PokerCard.vue';
+import socket from './socket.js';
 </script>
 
 <template>
